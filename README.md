@@ -1,6 +1,6 @@
 # mp3-downloader
 
-youtube-dl and ffmpeg utility to make CDs fast
+youtube-dl and ffmpeg utility to make CDs quickly
 
 ## Instructions
 
@@ -16,5 +16,14 @@ youtube-dl and ffmpeg utility to make CDs fast
 
 (to be placed in the same directory)
 
-- youtube-dl
-- ffmpeg
+- [youtube-dl](https://ytdl-org.github.io/youtube-dl/download.html)
+
+- [ffmpeg](https://ffmpeg.zeranoe.com/builds/)
+
+## Maintainance
+
+Youtube-dl self-updates with the `youtube-dl -U` command. You might need to do that once in a while because youtube and other supported websites change their interface or media service.
+
+## Disclaimer
+
+As this project depends on two other projects, sometimes there might be issues with those projects that are unsolvable on my end.
